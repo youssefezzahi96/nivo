@@ -73,6 +73,7 @@ export type CompleteTheme = {
     }
     grid: {
         line: Partial<React.CSSProperties>
+        radialLine: Partial<React.CSSProperties>
     }
     crosshair: {
         line: {

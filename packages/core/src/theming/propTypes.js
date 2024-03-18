@@ -41,6 +41,11 @@ export const gridThemePropType = PropTypes.shape({
         strokeWidth: PropTypes.number.isRequired,
         strokeDasharray: PropTypes.string,
     }).isRequired,
+    radialLine: PropTypes.shape({
+        stroke: PropTypes.string.isRequired,
+        strokeWidth: PropTypes.number.isRequired,
+        strokeDasharray: PropTypes.string,
+    }),
 })
 
 export const legendsThemePropType = PropTypes.shape({

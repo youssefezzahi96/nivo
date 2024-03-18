@@ -48,7 +48,7 @@ export const RadarGrid = <D extends Record<string, unknown>>({
                         y1={0}
                         x2={position.x}
                         y2={position.y}
-                        {...(theme.grid.line as SVGProps<SVGLineElement>)}
+                        {...(theme.grid.radialLine as SVGProps<SVGLineElement>)}
                     />
                 )
             })}
